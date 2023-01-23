@@ -1,0 +1,44 @@
+/* backgrounds */
+header {
+    background-color: blanchedalmond;
+}
+
+main {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: lightsalmon;
+}
+
+
+/* body */
+
+a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornflowerblue;
+    font-size: large;
+}
+
+
+#text {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background: yellow;
+  }
+
+/* footer */
+
+f {
+    color:gray;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
