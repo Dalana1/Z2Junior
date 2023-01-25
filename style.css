@@ -37,8 +37,12 @@ button {
 
 /* footer */
 
-f {
+footer {
     color:gray;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+div~p {
+    color: rebeccapurple;
 }
