@@ -1,7 +1,4 @@
-// function User(name) {
-//     this.name = name;
-// }
 
-// const user = new User('Kamila');
+let news = "Cześć, przywitaj się ze mną, ok?"
 
-console.log('Kamila😝');
+alert(news);
