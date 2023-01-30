@@ -8,6 +8,12 @@
             <link rel="stylesheet" href="style.css">
             <title>Egzamin 1</title>
 
+            <script>
+                function myFunction() {
+                    document.getElementById("napis").innerHTML = "Bye bye bye.";
+                }
+                </script>
+
         </head>
 
         <body>
@@ -25,20 +31,40 @@
                         <p>Lorem ipsum and bla bla bla, trelele </p>
                         <p>Ram pam pam</p>
 
+                <p id="napis">Helloooooooooooooo</p>
+
                 </article>
                 
 
 
-                <button>I am very sad button because i don't work</button>
+                <button type="button" onclick="myFunction()"> kliknij mnie </button>
+
+                <p id="demo"></p>
+                <script>
+                    var x;
+                    var car = "Volvo"
+                    var answer = "Alright!"
+                    x = 6;
+
+
+                    document.getElementById("demo").innerHTML = 
+                    x + "<br>" +
+                    car + "<br>" +
+                    answer;
+                    
+
+
+                    </script>
+                    
 
             </main>
 
                 <footer> 
                 
-                    <div>Dalana 2023 </div>
+                    <div>&#169 Dalana 2023 </div>
 
                         <p>odwiedź mój github, kliknij</p>
-                        <a href="https://github.com/Dalana1/Z2Junior" target="blank">tutaj</href></a>
+                        <a href="https://github.com/Dalana1/Z2Junior" target="blank" class = my-button >tutaj</href> </a>
                         
     
                 </footer>

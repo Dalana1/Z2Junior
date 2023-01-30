@@ -1,4 +1,4 @@
 
-let news = "Cześć, przywitaj się ze mną, ok?"
+let hi = prompt('Cześć, poznajmy się', "wpisz imię");
+alert(`Cześć ${hi}, Miło Cię poznać!`); 
 
-alert(news);
