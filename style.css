@@ -1,53 +1,41 @@
-/* backgrounds */
-header {
-    background-color: blanchedalmond;
+body {
+    background-color: yellowgreen;
 }
 
-main {
-    background-color: lightgreen;
-}
-
-footer {
-    background-color: lightsalmon;
-}
-
-
-/* body */
-
-a{
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-}
-
-a:hover{
-    color: cornflowerblue;
-    font-size: large;
-}
-
-
-#text {
-    color: red;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-p{
-    color: darkmagenta;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-button {
-    background: yellow;
-  }
-
-/* footer */
-
-footer {
-    color:gray;
-    font-size: 10px;
+h1 {
     font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    text-align: center;
 }
 
-div~p {
-    color: darkblue;
+#parent {
+    margin: 20 px;
+
+
 }
+
+.child {
+    width: 20%;
+    margin: 10px;
+    display: inline-block;
+    background-color: lightsalmon;
+    border: 5px solid red;
+}
+
+img{
+    margin: 20px;
+}
+
+.text {
+    margin: 10px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#firstText {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+
+}
+
