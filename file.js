@@ -1,4 +1,4 @@
-console.log('Kamila1😝');
+console.log('Kamila😝');
 
 let str = "123"
 let num = Number(str)
