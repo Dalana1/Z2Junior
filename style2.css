@@ -1,0 +1,59 @@
+/* backgrounds */
+header {
+    background-color: blanchedalmond;
+}
+
+main {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: lightsalmon;
+}
+
+
+/* body - global styles*/
+
+body{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornflowerblue;
+    font-size: large;
+}
+
+
+
+
+
+button {
+    background: yellow;
+  }
+
+/* footer */
+
+footer {
+    color:gray;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    font-size: 2rem;
+    background-color: yellowgreen;
+    display: initial;
+    border: 1px solid black;
+}
+
+.my-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    background: pink;
+    font: inherit;
+    text-align: center;
+  }
