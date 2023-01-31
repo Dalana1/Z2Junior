@@ -5,14 +5,37 @@ body {
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: darkgreen;
+    text-align: center;
 }
 
-#rodzic {
-    border: 1px solid red;
+#parent {
+    margin: 20 px;
+
+
 }
-.dziecko{
+
+.child {
+    width: 20%;
+    margin: 10px;
     display: inline-block;
-    float:left;
     background-color: lightsalmon;
-    border: 5px, solid black;
+    border: 5px solid red;
 }
+
+img{
+    margin: 20px;
+}
+
+.text {
+    margin: 10px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#firstText {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+
+}
+
