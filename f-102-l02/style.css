@@ -16,11 +16,11 @@ h1 {
 
 .child {
     width: 20%;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.2rem;
+    padding: 0.5rem;
     display: inline-block;
     background-color: lightsalmon;
-    border: 5px solid red;
+    border: 0.5rem solid red;
 }
 
 img{
@@ -29,8 +29,8 @@ img{
 }
 
 .text {
-    margin: 10px;
-    padding: 10px;
+    margin: 0.2rem;
+    padding: 0.5rem;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
