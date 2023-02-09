@@ -1,8 +1,3 @@
-// let name = prompt("Czy mnie lubisz?");
-// if (name == "tak") {
-//     alert ("Masz szczęście:D");
-//     alert ("Ja ciebie też");
-// }
 
 let question1 = confirm("Czy chcesz zostać junior frontend developerem?");
     if (question1 == true) {
@@ -12,9 +7,12 @@ let question1 = confirm("Czy chcesz zostać junior frontend developerem?");
                 alert("Oby to był tylko stan przejściowy😊");
             } else if (question2 <= 5) {
                 alert("Powoli do przodu 🧑‍🚀");
-            }else {
+            }else if(question2 >= 6) {
                 alert ("Wow! Lecisz jak burza! 🔥");
+            }else {
+                alert ("Hola hola, wpisz liczbę :D");
             }
     } else if (question1 == false) {
         alert("To co tutaj robisz?")
     }
+

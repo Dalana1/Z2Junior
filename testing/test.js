@@ -24,3 +24,10 @@ if (userName === 'Admin') {
 //     alert ("Masz szczęście:D");
 //     alert ("Ja ciebie też");
 // }
+
+
+let firstName = "";
+let lastName = "";
+let nickName = "";
+
+alert( firstName || lastName || nickName || "Anonymous");
