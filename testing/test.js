@@ -19,11 +19,14 @@ if (userName === 'Admin') {
 }
 
 
-// let name = prompt("Czy mnie lubisz?");
-// if (name == "tak") {
-//     alert ("Masz szczęście:D");
-//     alert ("Ja ciebie też");
-// }
+ if (confirm("Podejmij decyzję!")) {
+   alert("Wybrano opcję: OK");
+   } else {
+   alert("Wybrano opcję: Anuluj");
+ } 
+
+ var imie = prompt("Podaj imię", "Adam");
+ document.write("Twoje imię: "+imie); 
 
 
 let firstName = "";
