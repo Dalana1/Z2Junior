@@ -1,10 +1,14 @@
+function createFirstNum () {    
+    const First_num = +prompt("Podaj pierwszą liczbę",'');
+}
 
-const First_num = +prompt("Podaj pierwszą liczbę",'');
-    
-const Math_action= prompt("Podaj operator arytmetyczny (+, -, *, / lub %");
+function createMathAction () {
+    const Math_action= prompt("Podaj operator arytmetyczny (+, -, *, / lub %");
+}
 
-const Second_num = +prompt("Podaj drugą liczbę", '');
-
+function createSecondNum () {
+    const Second_num = +prompt("Podaj drugą liczbę", '');
+}
 
 // if (First_num === "" && Second_num === "" && Math_action === ""){
 //     alert ("To po co marnujesz swój czas?")
@@ -18,13 +22,20 @@ const Second_num = +prompt("Podaj drugą liczbę", '');
 
 
 
-function calcSum (First_num, Second_num) {
-   return First_num+Second_num
+function calcSum (a, b) {
+    createFirstNum
+    createMathAction
+    createSecondNum
+    if (Math_action == '+'){ 
+    return a+b
+    }
+    alert("dodawnie")
 }
 
 
+// function sum (a, b){
+//     return a+b
+// }
 
-let result = sum(First_num, Second_num);
-alert (result);
-
-if (Math_action)
+let result = calcSum (1,2)
+alert(result)
