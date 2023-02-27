@@ -56,3 +56,9 @@ alert (quotient);
 
 let product = calcProduct(First_num, Second_num);
 alert (product);
+
+
+do 
+{
+    // dopóki pole edycyjne true
+}
