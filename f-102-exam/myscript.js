@@ -1,14 +1,13 @@
-function createFirstNum () {    
-    const First_num = +prompt("Podaj pierwszą liczbę",'');
-}
+const First_num = +prompt("Podaj pierwszą liczbę",'');
+// First_num = new Number();
 
-function createMathAction () {
-    const Math_action= prompt("Podaj operator arytmetyczny (+, -, *, / lub %");
-}
 
-function createSecondNum () {
-    const Second_num = +prompt("Podaj drugą liczbę", '');
-}
+const Math_action= prompt("Podaj operator arytmetyczny (+, -, *, / lub %");
+
+
+
+const Second_num = +prompt("Podaj drugą liczbę", '');
+
 
 // if (First_num === "" && Second_num === "" && Math_action === ""){
 //     alert ("To po co marnujesz swój czas?")
@@ -21,21 +20,39 @@ function createSecondNum () {
 // } 
 
 
-
-function calcSum (a, b) {
-    createFirstNum
-    createMathAction
-    createSecondNum
+function calcSum (First_num, Second_num) {
     if (Math_action == '+'){ 
-    return a+b
+    return First_num+Second_num
     }
-    alert("dodawnie")
+}
+
+function calcDiff (First_num, Second_num) {
+    if (Math_action == '-'){ 
+    return First_num-Second_num
+    }
+}
+
+function calcQuotient (First_num, Second_num) {
+    if (Math_action == '/'){ 
+    return First_num/Second_num
+    }
+}
+
+function calcProduct (First_num, Second_num) {
+    if (Math_action == '*'){ 
+    return First_num*Second_num
+    }
 }
 
 
-// function sum (a, b){
-//     return a+b
-// }
+let sum = calcSum(First_num, Second_num);
+alert (sum);
 
-let result = calcSum (1,2)
-alert(result)
+let diff = calcDiff (First_num, Second_num);
+alert (diff);
+
+let quotient = calcQuotient(First_num, Second_num);
+alert (quotient);
+
+let product = calcProduct(First_num, Second_num);
+alert (product);
