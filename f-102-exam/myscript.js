@@ -1,22 +1,8 @@
 let First_num = +prompt("Podaj pierwszą liczbę",'');
-
-
 let Math_action= prompt("Podaj operator arytmetyczny (+, -, *, / lub %");
-
-
-
 let Second_num = +prompt("Podaj drugą liczbę", '');
 
 
-// if (First_num === "" && Second_num === "" && Math_action === ""){
-//     alert ("To po co marnujesz swój czas?")
-// } else if (First_num !=="" && Second_num !== "" && Math_action ===""){
-//     alert ("wybierz z podanych akcji: +, -, *, / lub %");
-// } else if (First_num ==="" || Second_num === "" || Math_action === ""){
-//     alert("Uzupełnij wszystkie dane")
-// } else if (isNaN(First_num) || isNaN(Second_num)) {
-//     alert("Podane dane nie są liczbami");
-// } 
 
 
 function calcSum(First_num, Second_num) {
@@ -37,22 +23,10 @@ function calcSum(First_num, Second_num) {
   
 
 
-// let sum = calcSum(First_num, Second_num);
-// alert (sum);
-
-// let diff = calcDiff (First_num, Second_num);
-// alert (diff);
-
-// let quotient = calcQuotient(First_num, Second_num);
-// alert (quotient);
-
-// let product = calcProduct(First_num, Second_num);
-// alert (product);
-
 
 let result;
 
-do {
+while (Math_action !== null && Math_action !== "" && First_num !== "" && Second_num !== "") {
     switch (Math_action) {
 
         case "+":
@@ -64,7 +38,12 @@ do {
         break;
 
         case "/":
-            result = calcQuotient(First_num, Second_num);
+            if (Second_num == 0) {
+                alert ("Nie dzielimy przez 0:)");
+            } else {
+                result = calcQuotient(First_num, Second_num);
+            }
+            
         break;
 
         case "*":
@@ -79,9 +58,14 @@ do {
     alert(result);
 
     Math_action = prompt("Podaj operator arytmetyczny (+, -, *, / lub %) lub zostaw puste żeby zakończyć");
-    First_num = result;
-    Second_num = +prompt("Podaj kolejną liczbę", "");
+    
+    if (Math_action !== "") {
+        First_num = result;
+        Second_num = +prompt("Podaj kolejną liczbę", "");
+    }else{
+        break;
+    }
 
-} while (Math_action !== null);
+}
 
 alert("Koniec programu");
